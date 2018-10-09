@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Астероиды</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" 	 href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+<canvas id = "score" width="300" height="300"></canvas>
+<div>
+   <canvas id = "wtf" width="600" height="600">Элемента нет</canvas>
+</div>
+<div id = "but" onclick="pregame()">
+<p>Следующий уровень</p>
+</div>
+<div id = "shop">
+<p>Магазин</p>
+<table>
+<tr>
+	<td ><span>Бомба</span></td>
+	<td ><span id = "dop">Доп. жизни</span></td>
+	<td >Апгрейд пушки</td>
+	</tr>
+
+<tr>
+	<td id = "one"><span><img src = "images/bomb.png"></span></td>
+	<td id = "two"><span><img src = "images/hearth1.png"></span></td>
+	<td id = "three"><span><img src = "images/fire1.png"></span></td>
+	</tr>
+<tr>
+	<td class = "pay" onclick="buy_bomb()"><span>Купить</span></td>
+	<td class = "pay" onclick="buy_health()"><span>Купить</span></td>
+	<td class = "pay" onclick="buy_fire()"><span>Купить</span></td>
+	</tr>
+<tr>
+	<td ><span class = "skor">Апгрейд</span><br><span class = "skor">скорости</span></td>
+		</tr>
+<tr>
+	<td id = "one"><span><img src = "images/image10-2.png"></span></td>
+	</tr>
+<tr>
+	<td class = "pay" onclick="buy_fire1()"><span>Купить</span></td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript" src = "1.js"></script>
+</body>
+</html>

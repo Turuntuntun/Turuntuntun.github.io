@@ -1,0 +1,102 @@
+
+canvas{
+    position: absolute;
+    cursor: none;
+	background-color: white	;
+}
+
+
+#wtf{
+	width: 600px;
+	margin-left:320px;
+	
+}
+
+#but{
+	top:280px;
+	left: 510px;
+	position: absolute;
+	z-index: 1;
+	cursor: default;
+	font-size: 20px;
+	display: none;
+	background-image: url(images/fon.png);
+	border-radius: 25px;
+	width: 210px;
+	height: 50px;
+	cursor: pointer;
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+     user-select: none;
+     border:1px solid #C0C0C0;
+
+}
+
+#but:active{
+	background-image: url(images/ff1.png); 
+}
+
+p{
+	margin-left: 15px;
+	margin-top: 12px;	
+}
+
+#but:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	color:white;
+	border:1px solid #808080;
+}	
+
+#shop{
+	position: absolute;
+	left: 950px;
+	display: none;
+
+}
+
+#shop p{
+	margin-left:150px;
+	font-size: 20px;
+}
+
+td{ 
+
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+     user-select: none;
+	width: 120px;
+	
+}
+table{
+	background-color: gray;
+}
+span{
+	margin-left: 40px;
+}
+#dop{
+	margin-left: 20px;
+}
+#two span{
+	margin-left: 30px;
+}
+.pay span{
+	margin-left: 35px;
+}
+
+.pay{
+	background-image: url(images/fon.png);
+	border-radius: 9px;
+	cursor: pointer;
+}
+
+.pay:hover{
+	color:white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.skor{
+	margin-left: 30px;
+}
